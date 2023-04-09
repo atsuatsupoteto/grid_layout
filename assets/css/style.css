@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+body {
+  background: #663399;
+  color: #FFFFFF;
+}
 /*
  grid
 */
@@ -14,20 +19,20 @@
   max-width: 150px;
   width: 20%;
   margin: 5px;
-  height: 100px;
+  height: 80px;
+  border-radius: 10px;/*角の丸み*/
 }
 
 
 .grid-col-4>.grid-item {
-    background-image: linear-gradient(#05FBFF, #1E00FF);
+    background-image: linear-gradient(#FFCCFF	, #00CCFF);
 }
 
 .grid-col-2>.grid-item {
-  background-image:  radial-gradient(circle, #f4c14e 0% 40%, #d36950 60% 100%);
+  background-image:  radial-gradient(circle, #00FFFF 0% 40%, #6699FF 60% 100%);
   box-shadow: 10px 10px 15px -10px;
 }
 
 .grid-col-6>.grid-item {
-  background-image: linear-gradient(#6fb8d9, #f4c14e, #d36950);
+  background-image: linear-gradient(#C299FF, #D0B0FF, #DCC2FF);
 }
-
