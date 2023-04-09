@@ -17,15 +17,17 @@
   height: 100px;
 }
 
- .grid-col-2>.grid-item {
-  background-color: aquamarine;
-}
 
 .grid-col-4>.grid-item {
-    background-color: yellow;
+    background-image: linear-gradient(#05FBFF, #1E00FF);
+}
+
+.grid-col-2>.grid-item {
+  background-image:  radial-gradient(circle, #f4c14e 0% 40%, #d36950 60% 100%);
+  box-shadow: 10px 10px 15px -10px;
 }
 
 .grid-col-6>.grid-item {
-  background-color: pink;
+  background-image: linear-gradient(#6fb8d9, #f4c14e, #d36950);
 }
 
