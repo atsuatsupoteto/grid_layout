@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*
+ grid
+*/
+.grid {
+  display: flex;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-item {
+  list-style: none;
+  max-width: 150px;
+  width: 20%;
+  margin: 5px;
+  height: 100px;
+}
+
+ .grid-col-2>.grid-item {
+  background-color: aquamarine;
+}
+
+.grid-col-4>.grid-item {
+    background-color: yellow;
+}
+
+.grid-col-6>.grid-item {
+  background-color: pink;
+}
+
